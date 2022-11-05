@@ -1,0 +1,86 @@
+:root {
+  --first-color: #272142;
+  --second-color: #6c63ff;
+  --third-color: #f9f7fe;
+  --fourth-color: white;
+  --fifth-color: black;
+  --sixth-color:#272142;
+  --seventh-color:#6c757d;
+  --first-font:"Playfair Display", serif;
+  --second-font: "Poppins", sans-serif;
+}
+/* About */
+    
+@media (max-width: 700px) {
+  
+  .about-section{
+    margin: 10px 10px !important;;
+  }
+  .about-section h1 {
+    font-size: 37px;
+    line-height: 44px;
+  }
+
+  .about-section h2 {
+    font-size: 44px;
+  }
+
+  .about-section {
+    text-align: center;
+  }
+
+ }
+
+ /* other screen size */
+
+body {
+  font-family: var(--second-font);
+}
+.about-section{
+  margin: 120px 20px;
+}
+.row .text-container-about{
+  padding: 0 0;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  color: var(--fifth-color);
+  font-family: var(--first-font);
+  font-weight: bold;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  color: var(--fifth-color);
+  font-family: var(--second-font);
+  font-weight: bold;
+}
+
+.about-section p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: var(--second-font);
+}
+
+.about-section-content {
+  margin: 5px 30px 30px 30px;
+  padding: 0 0;
+}
+
+#button {
+  background: var(--second-color);
+  border-radius: 4px;
+  color: var(--third-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+
+}
+
+#button:hover{
+  color: var(--fifth-color);
+
+}
+
